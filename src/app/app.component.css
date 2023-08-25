@@ -1,0 +1,18 @@
+button {
+  background-color: #fff;
+  padding: 0.5rem;
+  border: none;
+  opacity: 0;
+  animation: enter 1s forwards infinite;
+  animation-delay: var(--animation-delay);
+}
+
+@keyframes enter {
+  from {
+    translate: transformX(-100px);
+  }
+  to {
+    opacity: 1;
+    translate: transformX(0px);
+  }
+}
