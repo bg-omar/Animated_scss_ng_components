@@ -1,6 +1,6 @@
 {
-  "name": "angular",
-  "version": "0.0.0",
+  "name": "stying",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
     "@angular/animations": "~16.2.2",
@@ -19,6 +19,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "http-server-preview": "npx http-server dist/demo",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -30,6 +31,7 @@
     "@types/jasmine": "^4.3.5",
     "@types/node": "^20.5.6",
     "codelyzer": "^6.0.2",
+    "http-server": "^14.1.1",
     "jasmine-core": "~5.1.1",
     "jasmine-spec-reporter": "~7.0.0",
     "karma": "^6.4.2",
@@ -44,5 +46,6 @@
     "ts-node": "~10.9.1",
     "tslint": "~6.1.3",
     "typescript": "^4.9.5"
-  }
+  },
+  "packageManager": "yarn@3.6.3"
 }

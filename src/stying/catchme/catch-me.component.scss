@@ -1,0 +1,12 @@
+#move {
+    width:200px;
+    height:200px;
+    border: 1px solid green;
+    background-color: #f0f;
+    text-align:center;
+    position:relative;
+    border-radius: 50%;
+    animation: spin 10s linear infinite;
+    align-items: center;
+    justify-content: center;
+}

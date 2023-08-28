@@ -9,7 +9,7 @@ export class BindCssVariableDirective {
 
   constructor(private host: ElementRef<HTMLElement>) {}
 
-  ngOnChanges(changes) {
+  ngOnChanges(changes): void {
     const value = changes.value.currentValue;
     this.host.nativeElement.style.setProperty(`--${this.variable}`, value);
   }

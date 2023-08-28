@@ -14,10 +14,11 @@ import { ScrollNavModule } from "./scroll-nav/scroll-nav.module";
 import { DoubleBorderComponent } from './double-border/double-border.component';
 import { CirclesComponent } from './circles/circles.component';
 import { InfoCirclesComponent } from './info-circles/info-circles.component';
+import {BoxTripComponent} from "./box-trip/box-trip.component";
 
 @NgModule({
   imports: [BrowserModule, FormsModule, CatchMeModule, ScrollNavModule],
-  declarations: [ AppComponent, HelloComponent, BindCssVariableDirective, ExmapleComponent, BorderAnimationComponent, Border1Component, DoubleBorderComponent, CirclesComponent, InfoCirclesComponent ],
+  declarations: [ AppComponent, HelloComponent, BindCssVariableDirective, ExmapleComponent, BorderAnimationComponent, Border1Component, DoubleBorderComponent, CirclesComponent, InfoCirclesComponent, BoxTripComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

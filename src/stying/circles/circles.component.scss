@@ -62,7 +62,10 @@
 
     &:nth-of-type(1) { animation: psycho 2s linear infinite; }
     &:nth-of-type(2) { animation: psycho 2s linear .1s infinite; }
-    &:nth-of-type(3) { animation: psycho 2s linear .25s infinite; }
+    &:nth-of-type(3) { animation: psycho 2s linear .2s infinite; }
+    &:nth-of-type(4) { animation: psycho 2s linear .4s infinite; }
+    &:nth-of-type(5) { animation: psycho 2s linear .5s infinite; }
+    &:nth-of-type(6) { animation: psycho 2s linear .25s infinite; }
   }
 
 }
