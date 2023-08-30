@@ -1,27 +1,30 @@
 <scroll-nav>
   <app-exmaple [color]="'hotpink'"></app-exmaple>
 </scroll-nav>
-<div  style="padding-top: 100px">
-<box-trip></box-trip>
-<catch-me></catch-me>
-  <app-circles></app-circles>
-  <app-info-circles></app-info-circles>
-<app-double-border></app-double-border>
-<button *ngFor="let item of items; index as index"
-[style.--animation-delay]="index * 0.2 + 's'"
->
-  {{ item }}
-  </button>
+<div class="container">
+  <kt-resize-table></kt-resize-table>
+  <div  style="padding-top: 100px">
+  <box-trip></box-trip>
+  <catch-me></catch-me>
+    <app-circles></app-circles>
+    <app-info-circles></app-info-circles>
+  <app-double-border></app-double-border>
+  <button *ngFor="let item of items; index as index"
+  [style.--animation-delay]="index * 0.2 + 's'"
+  >
+    {{ item }}
+    </button>
 
 
-<border-animation></border-animation>
-<border-1></border-1>
-<hr>
+  <border-animation></border-animation>
+  <border-1></border-1>
+  <hr>
 
-<button *ngFor="let item of items; index as index"
-  bindCssVariable="animation-delay"
-  [bindCssVariableValue]="index * 0.2 + 's'"
->
-  {{ item }}
-  </button>
+  <button *ngFor="let item of items; index as index"
+    bindCssVariable="animation-delay"
+    [bindCssVariableValue]="index * 0.2 + 's'"
+  >
+    {{ item }}
+    </button>
+  </div>
 </div>

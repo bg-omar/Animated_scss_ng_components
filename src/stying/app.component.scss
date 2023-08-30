@@ -9,10 +9,15 @@ button {
 
 @keyframes enter {
   from {
-    translate: transformX(-100px);
+    transform: translateX(-100px);
   }
   to {
     opacity: 1;
-    translate: transformX(0px);
+    transform: translateX(0px);
   }
+}
+
+.container {
+  position: relative;
+  top: 100px;
 }

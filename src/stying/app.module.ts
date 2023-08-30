@@ -15,10 +15,11 @@ import { DoubleBorderComponent } from './double-border/double-border.component';
 import { CirclesComponent } from './circles/circles.component';
 import { InfoCirclesComponent } from './info-circles/info-circles.component';
 import {BoxTripComponent} from "./box-trip/box-trip.component";
+import { ResizeTableComponent } from './resize-table/resize-table.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, CatchMeModule, ScrollNavModule],
-  declarations: [ AppComponent, HelloComponent, BindCssVariableDirective, ExmapleComponent, BorderAnimationComponent, Border1Component, DoubleBorderComponent, CirclesComponent, InfoCirclesComponent, BoxTripComponent ],
+  declarations: [ AppComponent, HelloComponent, BindCssVariableDirective, ExmapleComponent, BorderAnimationComponent, Border1Component, DoubleBorderComponent, CirclesComponent, InfoCirclesComponent, BoxTripComponent, ResizeTableComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
