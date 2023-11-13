@@ -9,22 +9,10 @@ button {
 
 @keyframes enter {
   from {
-    transform: translateX(-100px);
+    translate: transformX(-100px);
   }
   to {
     opacity: 1;
-    transform: translateX(0px);
+    translate: transformX(0px);
   }
-}
-
-.container {
-  position: relative;
-  top: 150px;
-}
-
-
-.hexabox {
-  margin-top: 100px;
-  position: relative;
-  height: 250px;
 }

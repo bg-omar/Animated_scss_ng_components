@@ -16,10 +16,13 @@ import { CirclesComponent } from './circles/circles.component';
 import { InfoCirclesComponent } from './info-circles/info-circles.component';
 import {BoxTripComponent} from "./box-trip/box-trip.component";
 import { ResizeTableComponent } from './resize-table/resize-table.component';
+import {HexaComponent} from "./hexa/hexa.component";
+import {HexatrailComponent} from "./hexatrail/hexatrail.component";
+import {NeonhexaComponent} from "./neonhexa/neonhexa.component";
 
 @NgModule({
   imports: [BrowserModule, FormsModule, CatchMeModule, ScrollNavModule],
-  declarations: [ AppComponent, HelloComponent, BindCssVariableDirective, ExmapleComponent, BorderAnimationComponent, Border1Component, DoubleBorderComponent, CirclesComponent, InfoCirclesComponent, BoxTripComponent, ResizeTableComponent ],
+  declarations: [AppComponent, HelloComponent, BindCssVariableDirective, ExmapleComponent, BorderAnimationComponent, Border1Component, DoubleBorderComponent, CirclesComponent, InfoCirclesComponent, BoxTripComponent, ResizeTableComponent, HexaComponent, HexatrailComponent, NeonhexaComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
